@@ -8,5 +8,5 @@
  "base": {"name": "The Clock Tower", "addr": "Haymarket Memorial Clock Tower, LE1 5YA", "lat": 52.63640, "lon": -1.13308,
           "q": "Clock Tower, Leicester", "icon": "🕰️", "short": "the Clock Tower", "the": "the Clock Tower"},
  "special": {"tab": "Richard III", "icon": "👑"},
- "version": 1
+ "version": 2
 }
