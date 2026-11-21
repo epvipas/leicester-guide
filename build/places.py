@@ -23,13 +23,13 @@ add("sights","Phoenix","4 Midland Street, LE1 1TG",
 # ---------------- MUSEUMS ----------------
 add("museums","King Richard III Visitor Centre","4A St Martin's, LE1 5DB",
  "Built over the spot where the king's skeleton was found under a council car park in 2012. You can look down on the grave site itself, and the story of the dig and the identification is told brilliantly.",
- "Allow 90 minutes; combined tickets with Jewry Wall",web="https://kriii.com",geo="King Richard III Visitor Centre")
+ "10:00–16:00 (Sat & bank holidays to 17:00) · adults about £10 online · allow 90 minutes · joint tickets with Jewry Wall",web="https://kriii.com",geo="King Richard III Visitor Centre")
 add("museums","Jewry Wall Museum","St Nicholas Walk, LE1 4LB",
  "One of the tallest surviving Roman walls in Britain, from a 2nd-century bath house, with a new museum that reopened in July 2025 after an eight-year transformation. Roman mosaics, a bronze bull's head and immersive displays.",
  "Paid entry · Sun–Fri 10:00–16:00, Sat 10:00–17:00",web="https://www.jewrywall.com",geo="Jewry Wall Museum")
 add("museums","Leicester Guildhall","Guildhall Lane, LE1 5FQ",
  "A timber-framed medieval guildhall, begun around 1390, with a Great Hall, old cells and a library. Free and atmospheric, right beside the Cathedral.",
- "Free",geo="Leicester Guildhall")
+ "Daily 11:00–16:30 · free, £3 donation suggested",geo="Leicester Guildhall")
 add("museums","National Space Centre","Exploration Drive, LE4 5NS",
  "Rockets in a tall see-through tower, a planetarium and hands-on galleries about space. A big hit with all ages.",
  "Book online; 10 minutes' drive north",web="https://spacecentre.co.uk",far=True,geo="National Space Centre")
@@ -101,10 +101,7 @@ add("mid","Mowgli","10–12 St Martin's Square, LE1 5DF",
 # ---------------- PUBS ----------------
 add("pubs","The Blue Boar","16 Millstone Lane, LE1 5JN",
  "A small, friendly real-ale pub that won Leicester CAMRA's 2026 urban Pub of the Year, with a rotating range of cask beers.",
- "Millstone Lane has two more good pubs",price=1,geo="Blue Boar, Millstone Lane, Leicester")
-add("pubs","The Criterion","44 Millstone Lane, LE1 5JN",
- "A long-standing real-ale and craft-beer pub with good pizzas, a few minutes from the Cathedral.",
- "Pizza and a pint",price=1,geo="Criterion, Millstone Lane, Leicester",ll=(52.6317,-1.1352))
+ "The Two-Tailed Lion is a few doors along",price=1,geo="Blue Boar, Millstone Lane, Leicester")
 add("pubs","The Ale Wagon","27 Rutland Street, LE1 1RE",
  "A classic 1930s corner pub in the Cultural Quarter, run by the Hoskins family brewers, with their own beers on cask.",
  "Handy before a show at Curve",price=1,geo="Ale Wagon, Leicester")
@@ -113,7 +110,7 @@ add("pubs","The Salmon","19 Butt Close Lane, LE1 4QA",
  "Three minutes from the Clock Tower",price=1,geo="The Salmon, Butt Close Lane, Leicester")
 add("pubs","The Two-Tailed Lion","22 Millstone Lane, LE1 5JN",
  "A modern micropub named after the lion on Simon de Montfort's arms, with changing casks and craft beer.",
- "Do all three Millstone Lane pubs",price=1,geo="Two-Tailed Lion, Leicester")
+ "Pair with the Blue Boar on the same street",price=1,geo="Two-Tailed Lion, Leicester")
 
 # ---------------- MUSIC & THEATRE ----------------
 add("music","De Montfort Hall","Granville Road, LE1 7RU",
@@ -166,13 +163,13 @@ add("trips","Foxton Locks","Gumley Road, Foxton, LE16 7RA",
 add("trips","Great Central Railway","Great Central Road, Loughborough, LE11 1RW",
  "Britain's only double-track main-line heritage railway, running steam trains between Loughborough and Leicester North.",
  "Steam services at weekends and holidays; check the timetable",web="https://www.gcrailway.co.uk",far=True,drive="25 min",geo="Loughborough Central station")
-add("trips","Melton Mowbray","Ye Olde Pork Pie Shoppe, 10 Nottingham Street, Melton Mowbray, LE13 1NW",
+add("trips","Melton Mowbray","Ye Olde Pork Pie Shoppe, 8–10 Nottingham Street, Melton Mowbray, LE13 1NW",
  "England's 'rural capital of food', the home of the Melton Mowbray pork pie and Stilton. Ye Olde Pork Pie Shoppe still hand-raises pies the traditional way.",
- "Tuesday is market day",far=True,drive="30 min",geo="Ye Olde Pork Pie Shoppe")
+ "Street markets Tue & Sat · pie shop Mon–Sat 8:00–16:30",far=True,drive="30 min",geo="Ye Olde Pork Pie Shoppe")
 
 # ---------------- REVIEW ADDITIONS (Nov 2026) ----------------
 add("cafes","Bread & Honey","15 King Street, LE1 6RN",
- "An independent coffee house in a Victorian building on King Street, known for its own-baked bread and pastries as much as its coffee.",
+ "An independent coffee house in a Victorian building on King Street, serving Monmouth coffee with homemade cakes, soups and sandwiches.",
  "Weekdays only, roughly 7:00–15:00",price=1,geo="Bread & Honey, King Street, Leicester")
 add("cafes","Leicester Coffee House Company","110 Granby Street, LE1 1DL",
  "A coffee shop and roastery that roasts its beans on site, named after the Victorian Leicester Coffee and Cocoa House Company.",
@@ -183,15 +180,12 @@ add("cheap","Udupi Shivalli","21 Welford Road, LE2 7AD",
 add("music","Firebug","1 Millstone Lane, LE1 5JN",
  "A small bar and gig venue of about 100 capacity, open since 2004, with indie, punk and folk bands most weeks.",
  "18+ after 7pm; tickets often cheaper in advance",geo="Firebug, Millstone Lane, Leicester")
-add("music","The Cookie","68 High Street, LE1 5YP",
- "A bar with a basement room of about 150 seats that hosts touring stand-up comedy and small gigs.",
- "Book comedy ahead, especially during the February Comedy Festival",geo="The Cookie, High Street, Leicester")
 add("charity","BHF Furniture & Electrical, Charles Street","66–68 Charles Street, LE1 1FB",
  "A large British Heart Foundation store selling second-hand sofas, tables, wardrobes and tested electrical appliances, a short walk from the Clock Tower.",
  "Open seven days (Sun 11:00–17:00); delivery for a fee",geo="British Heart Foundation, Charles Street, Leicester")
-add("galleries","Two Queens","1–2 Queen Street, LE1 1QW",
+add("galleries","Two Queens","2 Queen Street, LE1 1QW",
  "An artist-run, community-owned gallery and studios in the Cultural Quarter, showing free contemporary art exhibitions since 2012.",
- "Free · usually Thu–Sat 12:00–18:00; check the current address",geo="Two Queens, Leicester")
+ "Free · usually Thu–Sat 12:00–18:00",geo="Two Queens, Leicester")
 add("food","Sharmilee","71–73 Belgrave Road, LE4 6AS",
  "A Golden Mile sweet mart dating from 1973, with a vegetarian restaurant alongside. The counter sells barfi, jalebi and other Indian sweets by weight.",
  "Buy a mixed box of sweets to take home",geo="Sharmilee, Belgrave Road, Leicester")
@@ -213,8 +207,8 @@ add("museums","Newarke Houses Museum","The Newarke, LE2 7BY",
 add("museums","Abbey Pumping Station","Corporation Road, LE4 5PX",
  "A Victorian sewage pumping station with four giant beam engines that are steamed on event days, plus a narrow-gauge railway, next to the National Space Centre.",
  "Opens only for events and steam days; closed Nov–Jan except Christmas specials",far=True,geo="Abbey Pumping Station")
-add("vintage","Kibworth Antiques Centre","Harborough Road, Kibworth, LE8 0RB",
- "Leicestershire's largest antiques and interiors centre, family-run since 2012, with 60+ dealers of furniture, art, jewellery and collectables.",
+add("vintage","Kibworth Antiques Centre","19 Harborough Road, Kibworth, LE8 0RB",
+ "A big antiques and interiors centre with dozens of dealers of furniture, art, jewellery and collectables.",
  "Easy stop on the way to Market Harborough",far=True,drive="20 min",geo="Kibworth Antiques Centre")
 add("parks","Victoria Park","Victoria Park Road, LE2 1XD",
  "Leicester's largest central park, a big open green by the University and De Montfort Hall, with Lutyens' Arch of Remembrance.",
@@ -225,15 +219,15 @@ add("parks","University of Leicester Botanic Garden","Glebe Road, Oadby, LE2 2NA
 add("parks","Watermead Country Park","Wanlip Road, Birstall, LE7 4PF",
  "Lakes and reed beds along the River Soar on the city's northern edge, good for birdwatching and flat walks, with a mammoth sculpture.",
  "Pay-and-display parking",far=True,drive="15 min",geo="Watermead Country Park")
-add("sport","Uptonsteel County Ground (Leicestershire CCC)","Grace Road, LE2 8EB",
+add("sport","Uptonsteel Grace Road (Leicestershire CCC)","Grace Road, LE2 8EB",
  "Home of Leicestershire County Cricket Club, with County Championship and T20 Blast matches from April to September.",
  "T20 evening games have the best atmosphere",far=True,geo="Grace Road, Leicester")
-add("sport","Leicester Riders at Morningside Arena","Charter Street, LE1 3UD",
+add("sport","Leicester Riders at Mattioli Arena","Charter Street, LE1 3UD",
  "The UK's oldest professional basketball club plays its home games at this city-centre arena, from autumn to spring.",
- "Family-friendly; buy tickets online",geo="Morningside Arena, Leicester")
+ "Family-friendly; buy tickets online",geo="Morningside Arena, Leicester",ll=(52.6420,-1.1360))
 add("pubs","The Western","70 Western Road, LE3 0GA",
- "A back-street Steamin' Billy real-ale pub near the river, with a small theatre and comedy space upstairs.",
- "Check the upstairs listings",price=1,far=True,geo="The Western, Western Road, Leicester")
+ "A back-street Everards real-ale pub near the river, with a small theatre space upstairs.",
+ "Check it's open; upstairs shows are occasional",price=1,far=True,geo="The Western, Western Road, Leicester")
 add("trips","Beacon Hill Country Park","Beacon Road, Woodhouse Eaves, LE12 8SR",
  "One of Leicestershire's highest points, with ancient rock outcrops, a hill fort and big views across Charnwood Forest.",
  "Pay parking; pair with lunch in Woodhouse Eaves",far=True,drive="25 min",geo="Beacon Hill Country Park")
@@ -242,7 +236,7 @@ add("trips","Rutland Water","Sykes Lane, Empingham, LE15 8PX",
  "Ospreys from April to August",far=True,drive="45 min",geo="Rutland Water")
 add("trips","Market Harborough","Church Square, Market Harborough, LE16 7NB",
  "A handsome market town with the 1614 Old Grammar School on wooden stilts, independent shops and a covered market.",
- "Market days are Tue, Fri and Sat",far=True,drive="30 min",geo="Old Grammar School, Market Harborough")
+ "Covered market open daily except Mondays",far=True,drive="30 min",geo="Old Grammar School, Market Harborough")
 add("trips","Burghley House","Stamford, PE9 3JY",
  "A huge Elizabethan house with the painted Heaven Room, a deer park and the Garden of Surprises, a walk from the stone town of Stamford.",
  "Combine with Stamford's antique shops and cafés",far=True,drive="55 min",geo="Burghley House")

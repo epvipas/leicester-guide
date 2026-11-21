@@ -31,5 +31,9 @@
   "tab": "Richard III",
   "icon": "👑"
  },
- "version": 3
+ "version": 4,
+ "renamed": {
+  "Uptonsteel Grace Road (Leicestershire CCC)": "Uptonsteel County Ground (Leicestershire CCC)",
+  "Leicester Riders at Mattioli Arena": "Leicester Riders at Morningside Arena"
+ }
 }
