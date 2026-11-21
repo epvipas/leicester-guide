@@ -1,0 +1,328 @@
+{
+"Leicester Cathedral": [
+[
+52.6343237,
+-1.1363494,
+"information",
+"board",
+"Leicester Cathedral, St Martin's East, Black Friars, Leicester, City of Leiceste"
+]
+],
+"Haymarket Memorial Clock Tower": [],
+"The Golden Mile": [
+[
+52.6472592,
+-1.1246494,
+"highway",
+"primary",
+"Belgrave Road, Latimer, Leicester, City of Leicester, England, LE4 5AS, United K"
+]
+],
+"Bow Bridge": [
+[
+52.6339941,
+-1.1441856,
+"man_made",
+"bridge",
+"Bow Bridge, St Augustine Road, Black Friars, Leicester, City of Leicester, Engla"
+]
+],
+"Richard III statue": [],
+"Phoenix": [
+[
+52.6358425,
+-1.1244775,
+"amenity",
+"cinema",
+"Phoenix, 4, Midland Street, St Matthew's, Leicester, City of Leicester, England,"
+]
+],
+"King Richard III Visitor Centre": [
+[
+52.6342074,
+-1.1361035,
+"tourism",
+"museum",
+"King Richard III Visitor Centre, 4A, St Martins, Black Friars, Leicester, City o"
+]
+],
+"Jewry Wall Museum": [
+[
+52.6348899,
+-1.1414634,
+"tourism",
+"museum",
+"Jewry Wall Museum, St Nicholas Circle, Black Friars, Leicester, City of Leiceste"
+]
+],
+"Leicester Guildhall": [
+[
+52.6348058,
+-1.1376428,
+"information",
+"board",
+"Guildhall, Guildhall Lane, Black Friars, Leicester, City of Leicester, England, "
+]
+],
+"National Space Centre": [
+[
+52.6537732,
+-1.1322832,
+"tourism",
+"museum",
+"National Space Centre, Exploration Drive, Stocking Farm, Leicester, City of Leic"
+]
+],
+"Leicester Museum & Art Gallery": [
+[
+52.6289432,
+-1.1279242,
+"tourism",
+"museum",
+"Leicester Museum and Art Gallery, 53, New Walk, Highfields, Leicester, City of L"
+]
+],
+"LCB Depot": [
+[
+52.6345592,
+-1.1282181,
+"amenity",
+"community_centre",
+"LCB Depot, 31, Rutland Street, St Matthew's, Leicester, City of Leicester, Engla"
+]
+],
+"Attenborough Arts Centre": [
+[
+52.6244912,
+-1.1256882,
+"building",
+"yes",
+"Attenborough Arts Centre, Lancaster Road, Highfields, Leicester, City of Leicest"
+]
+],
+"The Lanes & St Martin's": [],
+"Henshin": [],
+"Rockaboom": [],
+"The Wardrobe": [
+[
+52.6354436,
+-1.1353691,
+"shop",
+"clothes",
+"The Wardrobe, Royal Arcade, Black Friars, Leicester, City of Leicester, England,"
+]
+],
+"Above Ground": [],
+"The Vintage Scene": [],
+"Sue Ryder Vintage & Retro, Loseby Lane": [
+[
+52.6348061,
+-1.1362017,
+"shop",
+"charity",
+"Sue Ryder, 14, Loseby Lane, Black Friars, Leicester, City of Leicester, England,"
+]
+],
+"Leicester Market": [
+[
+52.6342806,
+-1.1338103,
+"amenity",
+"marketplace",
+"Leicester Market, Green Dragon Square, Black Friars, Leicester, City of Leiceste"
+]
+],
+"Mrs Bridges": [],
+"Kayal": [
+[
+52.6321925,
+-1.1272428,
+"amenity",
+"restaurant",
+"Kayal, 153, Granby Street, Highfields, Leicester, City of Leicester, England, LE"
+]
+],
+"Bobby's": [
+[
+52.6491726,
+-1.1232563,
+"amenity",
+"restaurant",
+"Bobby's, 154-156, Belgrave Road, Latimer, Leicester, City of Leicester, England,"
+]
+],
+"Maurizio's": [],
+"Mowgli": [
+[
+52.6347682,
+-1.1353604,
+"amenity",
+"restaurant",
+"Mowgli Street Food, 10, St Martin's Square, Black Friars, Leicester, City of Lei"
+]
+],
+"The Blue Boar": [
+[
+52.633112,
+-1.1352932,
+"amenity",
+"pub",
+"The Blue Boar, Millstone Lane, Black Friars, Leicester, City of Leicester, Engla"
+]
+],
+"The Criterion": [],
+"The Ale Wagon": [
+[
+52.6341872,
+-1.1287943,
+"amenity",
+"pub",
+"Ale Wagon, 22, Rutland Street, St Matthew's, Leicester, City of Leicester, Engla"
+]
+],
+"The Salmon": [
+[
+52.6382284,
+-1.1359393,
+"amenity",
+"pub",
+"The Salmon, 19, Butt Close Lane, Black Friars, Leicester, City of Leicester, Eng"
+]
+],
+"The Two-Tailed Lion": [
+[
+52.6329628,
+-1.13565,
+"amenity",
+"pub",
+"The Two Tailed Lion, 22, Millstone Lane, Black Friars, Leicester, City of Leices"
+]
+],
+"De Montfort Hall": [
+[
+52.6250318,
+-1.1220197,
+"amenity",
+"theatre",
+"De Montfort Hall, Granville Road, Highfields, Leicester, City of Leicester, Engl"
+]
+],
+"O2 Academy Leicester": [
+[
+52.6219063,
+-1.125217,
+"building",
+"yes",
+"O2 Academy Leicester, University Road, Highfields, Leicester, City of Leicester,"
+]
+],
+"Curve": [
+[
+52.6349628,
+-1.1274864,
+"information",
+"board",
+"Curve Theatre, Rutland Street, St Matthew's, Leicester, City of Leicester, Engla"
+]
+],
+"Escape Leicester": [
+[
+52.6327252,
+-1.1332084,
+"leisure",
+"escape_game",
+"Escape Leicester, Market Street, Black Friars, Leicester, City of Leicester, Eng"
+]
+],
+"ReRoll Board Game Caf\u00e9": [],
+"New Walk": [
+[
+52.6300732,
+-1.1297746,
+"highway",
+"pedestrian",
+"New Walk, Highfields, Leicester, City of Leicester, England, LE1 6HW, United Kin"
+]
+],
+"Abbey Park": [
+[
+52.6464761,
+-1.1348457,
+"leisure",
+"park",
+"Abbey Park, St Matthew's, Leicester, City of Leicester, England, United Kingdom"
+]
+],
+"Castle Gardens & the Newarke": [
+[
+52.6324214,
+-1.1417021,
+"leisure",
+"park",
+"Castle Gardens, Bede Island, Leicester, City of Leicester, England, United Kingd"
+]
+],
+"King Power Stadium (Leicester City)": [
+[
+52.620397,
+-1.1423352,
+"leisure",
+"stadium",
+"King Power Stadium, Filbert Way, Bede Island, Leicester, City of Leicester, Engl"
+]
+],
+"Welford Road (Leicester Tigers)": [
+[
+52.6242966,
+-1.1329529,
+"leisure",
+"stadium",
+"Mattioli Woods Welford Road, Aylestone Road, Bede Island, Leicester, City of Lei"
+]
+],
+"Bosworth Battlefield Heritage Centre": [
+[
+52.5994265,
+-1.4153435,
+"information",
+"board",
+"Site Map of Bosworth Battlefield Heritage Centre & Country Park, Shenton Cutting"
+]
+],
+"Bradgate Park": [
+[
+52.690018,
+-1.2159041,
+"leisure",
+"park",
+"Bradgate Park, Newtown Linford, Charnwood, Leicestershire, England, LE6 0HE, Uni"
+]
+],
+"Foxton Locks": [
+[
+52.4992119,
+-0.9825539,
+"place",
+"locality",
+"Foxton Locks, Foxton, Gumley, Harborough, Leicestershire, England, LE16 7RA, Uni"
+]
+],
+"Great Central Railway": [
+[
+52.7690651,
+-1.1959184,
+"railway",
+"station",
+"Loughborough Central, Robinson Crescent, Shelthorpe, Loughborough, Charnwood, Le"
+]
+],
+"Melton Mowbray": [
+[
+52.7652934,
+-0.8874635,
+"shop",
+"butcher",
+"Ye Olde Pork Pie Shoppe, 10, Nottingham Street, Melton Mowbray, Melton, Leiceste"
+]
+]
+}
