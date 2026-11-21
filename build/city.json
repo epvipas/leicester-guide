@@ -1,12 +1,35 @@
 {
- "slug": "leicester", "city": "Leicester", "short": "Leicester",
+ "slug": "leicester",
+ "city": "Leicester",
+ "short": "Leicester",
  "tagline": "Eat · Drink · Lanes · Golden Mile · Richard III · Days out",
  "desc": "Independent Leicester: curry and street food, real-ale pubs, the Lanes, vintage, galleries, Richard III and days out, with maps, reviews and directions.",
- "theme": "#1E4D8C", "gradient": "linear-gradient(110deg,#123463,#2A63B0 55%,#E0A526)",
- "icon_colors": ["#123463", "#C98F1E"], "stone": "#E9DCC0", "landmark": "clocktower",
- "center": [52.6355, -1.1345], "zoom": 15,
- "base": {"name": "The Clock Tower", "addr": "Haymarket Memorial Clock Tower, LE1 5YA", "lat": 52.63640, "lon": -1.13308,
-          "q": "Clock Tower, Leicester", "icon": "🕰️", "short": "the Clock Tower", "the": "the Clock Tower"},
- "special": {"tab": "Richard III", "icon": "👑"},
- "version": 2
+ "theme": "#1E4D8C",
+ "gradient": "linear-gradient(110deg,#123463,#2A63B0 55%,#E0A526)",
+ "icon_colors": [
+  "#123463",
+  "#C98F1E"
+ ],
+ "stone": "#E9DCC0",
+ "landmark": "clocktower",
+ "center": [
+  52.6355,
+  -1.1345
+ ],
+ "zoom": 15,
+ "base": {
+  "name": "The Clock Tower",
+  "addr": "Haymarket Memorial Clock Tower, LE1 5YA",
+  "lat": 52.6364,
+  "lon": -1.13308,
+  "q": "Clock Tower, Leicester",
+  "icon": "🕰️",
+  "short": "the Clock Tower",
+  "the": "the Clock Tower"
+ },
+ "special": {
+  "tab": "Richard III",
+  "icon": "👑"
+ },
+ "version": 3
 }

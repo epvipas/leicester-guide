@@ -49,22 +49,22 @@ add("galleries","Attenborough Arts Centre","Lancaster Road, LE1 7HA",
 add("shops","The Lanes & St Martin's","St Martin's, LE1 5DB",
  "The narrow Victorian streets and arcades between the Cathedral and the Market, packed with independent shops, cafés and vintage, around Loseby Lane, Silver Street and St Martin's Square.",
  "Start at St Martin's Square",ta=False,geo="St Martins Square, Leicester",ll=(52.6352,-1.1360))
-add("shops","Henshin","Silver Street, LE1 5ET",
+add("shops","Henshin","5 Silver Street (basement), LE1 5ET",
  "A shop devoted to anime and Japanese culture, with figures, manga and geeky gifts.",
  "Silver Street has several more independents",ta=False,geo="Henshin, Silver Street, Leicester",ll=(52.6356,-1.1355))
 
 # ---------------- RECORDS ----------------
-add("records","Rockaboom","Malcolm Arcade, LE1 5FT",
- "Leicester's longest-running independent record shop, tucked inside the Victorian Malcolm Arcade, with new and second-hand vinyl and CDs.",
+add("records","Rockaboom","18 Malcolm Arcade, LE1 5FT",
+ "A long-running independent record shop, trading for around 25 years, tucked inside the Victorian Malcolm Arcade, with new and second-hand vinyl and CDs.",
  "Check it's trading before a special trip",ta=False,geo="Rockaboom, Leicester",ll=(52.6349,-1.1336))
 
 # ---------------- VINTAGE ----------------
-add("vintage","The Wardrobe","Royal Arcade, LE1 5YW",
+add("vintage","The Wardrobe","6 Royal Arcade, LE1 5YW",
  "Leicester's longest-running vintage clothing shop, in the Royal Arcade, with rails of good-quality vintage for men and women.",
- "Above Ground is in the same arcade",ta=False,who=["m","w"],geo="The Wardrobe, Royal Arcade, Leicester",ll=(52.6346,-1.1334))
-add("vintage","Above Ground","Royal Arcade, LE1 5YW",
- "A vintage shop that has been part of the city's scene for over ten years, formerly called Pink Pigeon Forever.",
- "Pair with The Wardrobe",ta=False,who=["m","w"],geo="Above Ground, Leicester",ll=(52.6346,-1.1335))
+ "Above Ground is round the corner in the Silver Arcade",ta=False,who=["m","w"],geo="The Wardrobe, Royal Arcade, Leicester",ll=(52.6346,-1.1334))
+add("vintage","Above Ground","Silver Arcade, Silver Street, LE1 5ET",
+ "A vintage shop that has been part of the city's scene for over ten years, formerly called Pink Pigeon Forever. It moved from the Royal Arcade into the restored Silver Arcade in 2024.",
+ "Browse the rest of the Silver Arcade too",ta=False,who=["m","w"],geo="Above Ground, Leicester",ll=(52.6356,-1.1352))
 add("vintage","The Vintage Scene","Silver Street, LE1 5ET",
  "Vintage streetwear and sportswear: retro jackets, track tops and denim.",
  "Good for 80s and 90s sportswear",ta=False,who=["m","w"],geo="The Vintage Scene, Leicester",ll=(52.6357,-1.1356))
@@ -72,11 +72,11 @@ add("vintage","The Vintage Scene","Silver Street, LE1 5ET",
 # ---------------- CHARITY ----------------
 add("charity","Sue Ryder Vintage & Retro, Loseby Lane","14 Loseby Lane, LE1 5DR",
  "A specialist Sue Ryder charity shop in the Lanes with a big selection of vintage and retro clothing and accessories, plus books and records.",
- "Worth a look on any Lanes wander",ta=False,who=["m","w"],geo="Sue Ryder, Loseby Lane, Leicester",ll=(52.6349,-1.1347))
+ "Listed as open Mon–Fri; check before a weekend visit",ta=False,who=["m","w"],geo="Sue Ryder, Loseby Lane, Leicester",ll=(52.6349,-1.1347))
 
 # ---------------- MARKETS ----------------
 add("markets","Leicester Market","Market Place, LE1 5HQ",
- "Billed as the largest covered outdoor market in Europe, trading for more than 700 years, with fruit and veg, Asian and Caribbean produce, and a food hall in the Corn Exchange area.",
+ "Billed as the largest covered outdoor market in Europe, trading for more than 700 years, with fruit and veg, Asian and Caribbean produce, and street food.",
  "Saturday is busiest with the most stalls",geo="Leicester Market")
 
 # ---------------- CAFÉS ----------------
@@ -91,10 +91,10 @@ add("mid","Kayal","153 Granby Street, LE1 6FE",
 add("cheap","Bobby's","154–156 Belgrave Road, LE4 5AT",
  "A pure-vegetarian Gujarati restaurant and sweet mart on the Golden Mile, open since the 1970s. Thalis, chaat and Indian sweets to take away.",
  "Buy a box of sweets on the way out",price=1,geo="Bobby's, Belgrave Road, Leicester")
-add("cheap","Maurizio's","Hotel Street, LE1 5AW",
- "A small, much-loved pizza and pasta spot that recently moved to Hotel Street, often called one of Leicester's best-kept secrets.",
+add("cheap","Maurizio's","6 Hotel Street, LE1 5AW",
+ "A much-loved pizza and pasta spot, often called one of Leicester's best-kept secrets, which opened this bigger dine-in restaurant on Hotel Street in 2025. The original Belvoir Street site does takeaway.",
  "Small; book or go early",price=1,geo="Maurizio's, Hotel Street, Leicester",ll=(52.6339,-1.1350))
-add("mid","Mowgli","10 St Martin's Square, LE1 5DF",
+add("mid","Mowgli","10–12 St Martin's Square, LE1 5DF",
  "Indian street food in a buzzy, swing-seated dining room in the Lanes.",
  "The chat bombs are the thing",price=2,geo="Mowgli, Leicester",ll=(52.6351,-1.1361))
 
@@ -105,7 +105,7 @@ add("pubs","The Blue Boar","16 Millstone Lane, LE1 5JN",
 add("pubs","The Criterion","44 Millstone Lane, LE1 5JN",
  "A long-standing real-ale and craft-beer pub with good pizzas, a few minutes from the Cathedral.",
  "Pizza and a pint",price=1,geo="Criterion, Millstone Lane, Leicester",ll=(52.6317,-1.1352))
-add("pubs","The Ale Wagon","22 Rutland Street, LE1 1RE",
+add("pubs","The Ale Wagon","27 Rutland Street, LE1 1RE",
  "A classic 1930s corner pub in the Cultural Quarter, run by the Hoskins family brewers, with their own beers on cask.",
  "Handy before a show at Curve",price=1,geo="Ale Wagon, Leicester")
 add("pubs","The Salmon","19 Butt Close Lane, LE1 4QA",
@@ -127,7 +127,7 @@ add("music","Curve","60 Rutland Street, LE1 1SB",
  "Christmas musical runs through December",web="https://www.curveonline.co.uk",geo="Curve Theatre, Leicester")
 
 # ---------------- THINGS TO DO ----------------
-add("fun","Escape Leicester","Market Street & Horsefair Street, LE1",
+add("fun","Escape Leicester","26 Market Street & Horsefair House, Horsefair Street, LE1",
  "Fourteen escape rooms across city-centre sites, plus a party space for bigger groups.",
  "Book ahead at weekends",geo="Escape Leicester",ll=(52.6340,-1.1335))
 add("fun","ReRoll Board Game Café","36 Granby Street, LE1 1DE",
@@ -158,7 +158,7 @@ add("trips","Bosworth Battlefield Heritage Centre","Ambion Lane, Sutton Cheney, 
  "Where Richard III was killed in 1485, ending the Wars of the Roses. A heritage centre, a 2.2 km battlefield trail and a sundial memorial.",
  "Pair with the Richard III sites in the city",far=True,drive="30 min",geo="Bosworth Battlefield Heritage Centre")
 add("trips","Bradgate Park","Newtown Linford, LE6 0HE",
- "830 acres of ancient deer park in Charnwood Forest, with red and fallow deer, the ruins of Lady Jane Grey's childhood home and Old John folly on the hilltop.",
+ "About 850 acres of ancient deer park in Charnwood Forest, with red and fallow deer, the ruins of Lady Jane Grey's childhood home and Old John folly on the hilltop.",
  "Free entry; paid parking",far=True,drive="20 min",geo="Bradgate Park")
 add("trips","Foxton Locks","Gumley Road, Foxton, LE16 7RA",
  "The largest flight of staircase locks in England: ten locks climbing a hill on the Grand Union Canal, with the remains of a Victorian boat lift, pubs and a café.",
@@ -169,3 +169,86 @@ add("trips","Great Central Railway","Great Central Road, Loughborough, LE11 1RW"
 add("trips","Melton Mowbray","Ye Olde Pork Pie Shoppe, 10 Nottingham Street, Melton Mowbray, LE13 1NW",
  "England's 'rural capital of food', the home of the Melton Mowbray pork pie and Stilton. Ye Olde Pork Pie Shoppe still hand-raises pies the traditional way.",
  "Tuesday is market day",far=True,drive="30 min",geo="Ye Olde Pork Pie Shoppe")
+
+# ---------------- REVIEW ADDITIONS (Nov 2026) ----------------
+add("cafes","Bread & Honey","15 King Street, LE1 6RN",
+ "An independent coffee house in a Victorian building on King Street, known for its own-baked bread and pastries as much as its coffee.",
+ "Weekdays only, roughly 7:00–15:00",price=1,geo="Bread & Honey, King Street, Leicester")
+add("cafes","Leicester Coffee House Company","110 Granby Street, LE1 1DL",
+ "A coffee shop and roastery that roasts its beans on site, named after the Victorian Leicester Coffee and Cocoa House Company.",
+ "Weekdays about 7:00–16:00; buy beans to take home",price=1,geo="Leicester Coffee House Company")
+add("cheap","Udupi Shivalli","21 Welford Road, LE2 7AD",
+ "A vegetarian South Indian restaurant serving dosas, idli and thalis, with a good-value weekend buffet.",
+ "Try the masala dosa",price=1,geo="Shivalli, Welford Road, Leicester")
+add("music","Firebug","1 Millstone Lane, LE1 5JN",
+ "A small bar and gig venue of about 100 capacity, open since 2004, with indie, punk and folk bands most weeks.",
+ "18+ after 7pm; tickets often cheaper in advance",geo="Firebug, Millstone Lane, Leicester")
+add("music","The Cookie","68 High Street, LE1 5YP",
+ "A bar with a basement room of about 150 seats that hosts touring stand-up comedy and small gigs.",
+ "Book comedy ahead, especially during the February Comedy Festival",geo="The Cookie, High Street, Leicester")
+add("charity","BHF Furniture & Electrical, Charles Street","66–68 Charles Street, LE1 1FB",
+ "A large British Heart Foundation store selling second-hand sofas, tables, wardrobes and tested electrical appliances, a short walk from the Clock Tower.",
+ "Open seven days (Sun 11:00–17:00); delivery for a fee",geo="British Heart Foundation, Charles Street, Leicester")
+add("galleries","Two Queens","1–2 Queen Street, LE1 1QW",
+ "An artist-run, community-owned gallery and studios in the Cultural Quarter, showing free contemporary art exhibitions since 2012.",
+ "Free · usually Thu–Sat 12:00–18:00; check the current address",geo="Two Queens, Leicester")
+add("food","Sharmilee","71–73 Belgrave Road, LE4 6AS",
+ "A Golden Mile sweet mart dating from 1973, with a vegetarian restaurant alongside. The counter sells barfi, jalebi and other Indian sweets by weight.",
+ "Buy a mixed box of sweets to take home",geo="Sharmilee, Belgrave Road, Leicester")
+add("food","Chamunda Sweet Centre","59a Belgrave Road, LE4 6AS",
+ "A family sweet mart at the city end of the Golden Mile, selling fresh Gujarati sweets and savoury farsan snacks.",
+ "Busiest, and best stocked, before Diwali",geo="Chamunda Sweet Centre, Leicester")
+add("food","Sherwin's Cheese Co","Leicester Market Food Hall, Market Place, LE1 5GG",
+ "A cheese stall in the market food hall run by the same family since 1977, with over 60 mainly British cheeses including local Red Leicester and Stilton.",
+ "Ask for a taste before you buy",ta=False,geo="Leicester Market",ll=(52.6345,-1.1324))
+add("food","Christopher James Deli","60B Queens Road, LE2 1TU",
+ "A traditional Clarendon Park deli trading since the early 1980s, strong on cheese, especially Stilton and Red Leicester.",
+ "Combine with a browse of the Queens Road shops",far=True,geo="Christopher James Deli, Queens Road, Leicester")
+add("fashion","The Business Fashion","360 Welford Road, LE2 6EJ",
+ "An independent menswear store founded in 2006, selling designer labels, streetwear and Japanese workwear, with its own coffee and gelato bar.",
+ "About 30 minutes' walk south, or a short bus ride",who=["m"],far=True,geo="The Business Fashion, Welford Road")
+add("museums","Newarke Houses Museum","The Newarke, LE2 7BY",
+ "Two historic houses telling Leicester's social history, with a reconstructed 1950s street, the Royal Leicestershire Regiment galleries and a walled garden.",
+ "Now open only on limited days; check before you go",geo="Newarke Houses Museum")
+add("museums","Abbey Pumping Station","Corporation Road, LE4 5PX",
+ "A Victorian sewage pumping station with four giant beam engines that are steamed on event days, plus a narrow-gauge railway, next to the National Space Centre.",
+ "Opens only for events and steam days; closed Nov–Jan except Christmas specials",far=True,geo="Abbey Pumping Station")
+add("vintage","Kibworth Antiques Centre","Harborough Road, Kibworth, LE8 0RB",
+ "Leicestershire's largest antiques and interiors centre, family-run since 2012, with 60+ dealers of furniture, art, jewellery and collectables.",
+ "Easy stop on the way to Market Harborough",far=True,drive="20 min",geo="Kibworth Antiques Centre")
+add("parks","Victoria Park","Victoria Park Road, LE2 1XD",
+ "Leicester's largest central park, a big open green by the University and De Montfort Hall, with Lutyens' Arch of Remembrance.",
+ "Free · about 20 minutes' walk via New Walk",geo="Victoria Park, Leicester")
+add("parks","University of Leicester Botanic Garden","Glebe Road, Oadby, LE2 2NA",
+ "Sixteen acres of gardens around four Edwardian houses, with glasshouses, an alpine house and a woodland garden. Free entry.",
+ "Check seasonal opening hours",far=True,drive="15 min",geo="University of Leicester Botanic Garden")
+add("parks","Watermead Country Park","Wanlip Road, Birstall, LE7 4PF",
+ "Lakes and reed beds along the River Soar on the city's northern edge, good for birdwatching and flat walks, with a mammoth sculpture.",
+ "Pay-and-display parking",far=True,drive="15 min",geo="Watermead Country Park")
+add("sport","Uptonsteel County Ground (Leicestershire CCC)","Grace Road, LE2 8EB",
+ "Home of Leicestershire County Cricket Club, with County Championship and T20 Blast matches from April to September.",
+ "T20 evening games have the best atmosphere",far=True,geo="Grace Road, Leicester")
+add("sport","Leicester Riders at Morningside Arena","Charter Street, LE1 3UD",
+ "The UK's oldest professional basketball club plays its home games at this city-centre arena, from autumn to spring.",
+ "Family-friendly; buy tickets online",geo="Morningside Arena, Leicester")
+add("pubs","The Western","70 Western Road, LE3 0GA",
+ "A back-street Steamin' Billy real-ale pub near the river, with a small theatre and comedy space upstairs.",
+ "Check the upstairs listings",price=1,far=True,geo="The Western, Western Road, Leicester")
+add("trips","Beacon Hill Country Park","Beacon Road, Woodhouse Eaves, LE12 8SR",
+ "One of Leicestershire's highest points, with ancient rock outcrops, a hill fort and big views across Charnwood Forest.",
+ "Pay parking; pair with lunch in Woodhouse Eaves",far=True,drive="25 min",geo="Beacon Hill Country Park")
+add("trips","Rutland Water","Sykes Lane, Empingham, LE15 8PX",
+ "A huge reservoir with a 23-mile cycle loop, bike hire, sailing and an important osprey nature reserve.",
+ "Ospreys from April to August",far=True,drive="45 min",geo="Rutland Water")
+add("trips","Market Harborough","Church Square, Market Harborough, LE16 7NB",
+ "A handsome market town with the 1614 Old Grammar School on wooden stilts, independent shops and a covered market.",
+ "Market days are Tue, Fri and Sat",far=True,drive="30 min",geo="Old Grammar School, Market Harborough")
+add("trips","Burghley House","Stamford, PE9 3JY",
+ "A huge Elizabethan house with the painted Heaven Room, a deer park and the Garden of Surprises, a walk from the stone town of Stamford.",
+ "Combine with Stamford's antique shops and cafés",far=True,drive="55 min",geo="Burghley House")
+add("trips","Ashby de la Zouch Castle","South Street, Ashby de la Zouch, LE65 1BR",
+ "An English Heritage ruin with a 24-metre tower you can climb and a tunnel to the kitchen, the setting of the joust in Scott's Ivanhoe.",
+ "Climb the Hastings Tower for views",far=True,drive="30 min",geo="Ashby de la Zouch Castle")
+add("trips","Twycross Zoo","Burton Road, Atherstone, CV9 3PX",
+ "A large zoo known for its primates, including gorillas, orangutans and bonobos.",
+ "Book online for a cheaper ticket",far=True,drive="30 min",geo="Twycross Zoo")

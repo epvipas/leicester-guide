@@ -21,7 +21,7 @@ function renderInfo() {
   <div class="sec"><h2>🚗 Getting there</h2>
    <img src="img/transit.svg" alt="" style="width:100%;border-radius:12px;aspect-ratio:16/7;object-fit:cover">
    <div class="opt" style="border-color:#1E4D8C"><h4 style="background:#1E4D8C"><span>🚌 Park &amp; Ride</span><span>cheaper than city parking</span></h4><ol>
-    <li>Leicester has Park &amp; Ride sites at <b>Birstall</b> (north, off the A6), <b>Enderby</b> (south-west, near M1 J21) and <b>Meynell's Gorse</b> (west), with buses into the centre. Check fares and times before you go.</li></ol></div>
+    <li>Leicester has Park &amp; Ride sites at <b>Birstall</b> (north, off the A6), <b>Enderby</b> (south-west, near M1 J21) and <b>Meynell's Gorse</b> (west), with buses into the centre, and parking is free for bus users. Check fares and times before you go.</li></ol></div>
    <div class="opt" style="border-color:#E0A526"><h4 style="background:#E0A526"><span>🅿️ Driving in</span><span>multi-storeys</span></h4><ol>
     <li>Central car parks include <b>Haymarket</b> (by the Clock Tower), <b>Highcross</b> and <b>St Margaret's</b>.</li></ol></div>
    <div class="opt" style="border-color:#1877D0"><h4 style="background:#1877D0"><span>🚆 By train</span><span>10–15 min walk</span></h4><ol>
